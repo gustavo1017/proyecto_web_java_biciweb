@@ -3,10 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/gustavo/biciapp/BiciWeb/src/java/alquiler/daos/impl/EncargadoDaoImplStm.java</file>
-            <file>file:/E:/gustavo/biciapp/BiciWeb/src/java/alquiler/entidades/Encargado.java</file>
-            <file>file:/E:/gustavo/biciapp/BiciWeb/src/java/alquiler/pruebas/pruebaStatement.java</file>
-            <file>file:/E:/gustavo/biciapp/BiciWeb/src/java/alquiler/entidades/Estacionamiento.java</file>
+            <file>file:/E:/gustavo/biciapp/BiciWeb/src/java/alquiler/daos/impl/ClienteDaoImplPst.java</file>
+            <file>file:/E:/gustavo/biciapp/BiciWeb/src/java/alquiler/daos/impl/BicicletaDaoImplPst.java</file>
         </group>
     </open-files>
 </project-private>
