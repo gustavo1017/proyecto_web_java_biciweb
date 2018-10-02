@@ -19,7 +19,7 @@ import java.util.List;
  * @author THEBEST
  */
 public class ClienteDaoImplPst implements ClienteDao{
-     private Connection cn=null;
+ private Connection cn=null;
     private PreparedStatement pst;
     private ResultSet rs;
     @Override
@@ -149,6 +149,11 @@ public class ClienteDaoImplPst implements ClienteDao{
                 System.out.println("No se pudo cerrar la conexion");
             }
         }
+    }
+    
+    @Override
+    public Cliente validar(String us, String ps) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     

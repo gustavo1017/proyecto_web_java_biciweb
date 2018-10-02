@@ -20,4 +20,5 @@ public interface ClienteDao {
     public void update(Cliente cliente);
     
     public void delete(Cliente cliente);
+     public Cliente validar(String us, String ps);
 }

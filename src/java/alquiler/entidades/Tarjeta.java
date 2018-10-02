@@ -35,6 +35,9 @@ public class Tarjeta {
         this.fecha_ven_tarjeta = fecha_ven_tarjeta;
     }
 
+ 
+
+
     public int getId_tarjeta() {
         return id_tarjeta;
     }

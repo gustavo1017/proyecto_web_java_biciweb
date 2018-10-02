@@ -46,7 +46,7 @@ CREATE TABLE ENCARGADO(
 	primary key(id_encargado)
 )
 
-alter table CLIENTE add foreign key(id_cliente) references TARJETA(id_tarjeta);
+alter table CLIENTE add foreign key(id_tarjeta) references TARJETA(id_tarjeta);
 
 
 alter table ALQUILER add foreign key(id_cliente) references CLIENTE(id_cliente);

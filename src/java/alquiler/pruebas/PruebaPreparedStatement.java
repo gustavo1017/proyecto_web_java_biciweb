@@ -16,7 +16,7 @@ import alquiler.entidades.Estacionamiento;
  */
 public class PruebaPreparedStatement {
     public static void main(String [] args){
-          Estacionamiento estacionamiento = new Estacionamiento("El paradero","av real 4567",3);
+          Estacionamiento estacionamiento = new Estacionamiento("El paradero123 ","av real 13067",3);
         EstacionamientoDao dao = new EstacionamientoDaoImplPst();
         dao.create(estacionamiento);
           for(Estacionamiento estacion:dao.findAll()){

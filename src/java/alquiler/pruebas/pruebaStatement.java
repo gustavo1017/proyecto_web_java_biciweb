@@ -29,7 +29,7 @@ public class pruebaStatement {
              System.out.print(enc.getTelefono_encargado());
               System.out.println(enc.getDireccion_encargado());
         } */
-        Estacionamiento estacionamiento = new Estacionamiento("Hospital","larco 7856",2);
+        Estacionamiento estacionamiento = new Estacionamiento("banco","av venezuela 7856",2);
         EstacionamientoDao dao = new EstacionamientoDaoImplStm();
         dao.create(estacionamiento);
           for(Estacionamiento estacion:dao.findAll()){

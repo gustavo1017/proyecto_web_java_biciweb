@@ -143,5 +143,10 @@ public class ClienteDaoImplStm implements ClienteDao{
             }
         }
     }
+    @Override
+    public Cliente validar(String us, String ps) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     
 }
